@@ -1,9 +1,0 @@
-<project name="CurrencyGUI" default="compile">
-    <property name="src.dir" location="src" />
-    <property name="build.dir" location="bin" />
-
-    <target name="compile">
-        <mkdir dir="${build.dir}" />
-        <javac srcdir="${src.dir}" destdir="${build.dir}" />
-    </target>
-</project>
